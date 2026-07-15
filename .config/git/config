@@ -1,0 +1,16 @@
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	co = checkout
+	f = fetch
+	s = status
+	cax = commit --amend --no-edit
+	rb = rebase
+	b = branch
+	c = commit
+	aic = !~/.config/git/bin/git-ai-commit
+[user]
+	name = Junjie
+	email = 113354001+GrassHeadd@users.noreply.github.com
+[push]
+	autoSetupRemote = true
+

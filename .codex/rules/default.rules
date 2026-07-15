@@ -1,0 +1,5 @@
+prefix_rule(pattern=["curl", "-fsSL", "https://platform.claude.com/docs/en/docs/claude-code"], decision="allow")
+prefix_rule(pattern=["curl", "-fsSL", "https://docs.anthropic.com/sitemap.xml"], decision="allow")
+prefix_rule(pattern=["curl", "-fsSL", "https://docs.anthropic.com/en/sitemap.xml"], decision="allow")
+prefix_rule(pattern=["docker", "ps"], decision="allow")
+prefix_rule(pattern=["docker", "exec", "didero-db-1", "psql"], decision="allow")
